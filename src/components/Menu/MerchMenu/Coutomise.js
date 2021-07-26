@@ -1,16 +1,15 @@
 import React from 'react'
 
 export default function Coutomise() {
+    const [hover, setHover] = React.useState(false);
     return (
-        <div>
-            <div className="main">
-                <div className="grid-hover">
-                    <h5>Coutomise</h5>
-                </div>
+        <div className="main" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
+            <div className="grid-hover" style={{ marginBottom: "50px" }}>
+                <h5 >Men</h5>
+            </div>
 
-                <div className="grid-dropDown">
-
-
+            <div className="grid-dropDown">
+                {hover && (
                     <div className="dropDown-ul">
 
                         <div className="dropDown-li">
@@ -71,11 +70,13 @@ export default function Coutomise() {
                         </div>
 
                     </div>
+                )}
 
 
-                </div>
+
 
             </div>
+
         </div>
     )
 }

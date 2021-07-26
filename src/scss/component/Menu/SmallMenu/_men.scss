@@ -1,30 +1,29 @@
 .main {
+  height: 60px;
   .grid-hover {
     position: relative;
-    cursor: pointer;
   }
   .grid-dropDown {
     position: absolute;
-    top: 142px;
-    width: 100%;
-    left: 0px;
-    opacity: 0;
+
+    box-shadow: 2px 2px #888888;
+    top: 60px;
+    right: 6rem;
+    width: 1111px;
+    transform: translateY(50px);
+    transition: ease-in-out 1s;
     .dropDown-ul {
+      list-style: none;
       display: flex;
       justify-content: space-around;
-    }
-  }
-  &:hover {
-    transition: 0.5s;
-    .grid-dropDown {
-      position: absolute;
-      top: 142px;
-      width: 100%;
-      left: 0px;
-      opacity: 1;
-      .dropDown-ul {
-        display: flex;
-        justify-content: space-around;
+      .dropDown-li {
+        a {
+          color: rgba(0, 0, 0, 0.349);
+          text-decoration: none;
+          &:hover {
+            color: black;
+          }
+        }
       }
     }
   }

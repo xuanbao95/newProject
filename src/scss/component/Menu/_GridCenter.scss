@@ -1,11 +1,8 @@
 .grid-center {
-  position: relative;
-
   .grid-ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
     list-style: none;
+    display: flex;
+    justify-content: space-evenly;
     .grid-a {
       text-decoration: none;
       color: black;
