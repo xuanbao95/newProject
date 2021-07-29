@@ -18,7 +18,7 @@ export default function Men() {
         }
         } onMouseLeave={() => { setHover(false); }}>
             <div className="grid-hover" style={{ marginBottom: "50px" }}>
-                <h5 >Men</h5>
+                <h6>Men</h6>
             </div>
 
             <div className="grid-dropDown">

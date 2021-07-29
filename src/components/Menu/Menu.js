@@ -12,13 +12,13 @@ export default function Menu() {
     return (
         <div className="main-menu" style={{ marginTop: "1rem" }} >
             <Grid spacing={2} className="menu_1">
-                <Grid item xs={3} className="menu-right">
+                <Grid item xs={4} className="menu-right">
                     <GridRight />
                 </Grid>
-                <Grid item xs={6} style={{ marginRight: "144px" }}>
+                <Grid item xs={4} style={{ marginRight: "144px" }}>
                     <GridCenter className="menu_2" />
                 </Grid>
-                <Grid item xs={3} className="menu-left">
+                <Grid item xs={4} className="menu-left">
                     <GridLeft />
                 </Grid>
             </Grid>

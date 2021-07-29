@@ -5,7 +5,7 @@ export default function Kids() {
     return (
         <div className="main" onMouseEnter={() => setHover(true)} onMouseLeave={() => setHover(false)}>
             <div className="grid-hover" style={{ marginBottom: "50px" }}>
-                <h5 >Men</h5>
+                <h6 >Kids</h6>
             </div>
 
             <div className="grid-dropDown">
