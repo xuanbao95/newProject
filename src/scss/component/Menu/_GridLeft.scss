@@ -51,11 +51,11 @@
       right: 10px;
       top: 7px;
     }
-    &:focus-within {
-      transform: translateY(-4px);
-      border-color: #bbb;
-      box-shadow: 4px 4px 0 #ddd, 8px 8px 0 darken(#feffd4, 15%);
-    }
+    // &:focus-within {
+    //   transform: translateY(-4px);
+    //   border-color: #bbb;
+    //   box-shadow: 4px 4px 0 #ddd, 8px 8px 0 darken(#feffd4, 15%);
+    // }
   }
   .Mui-tenten {
     &:hover {

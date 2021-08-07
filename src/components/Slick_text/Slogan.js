@@ -16,6 +16,7 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: "rgba(0, 0, 0, 0.171)",
         textAlign: "center",
         height: "70px",
+        overflow: "hidden",
     },
     slogan_item: {
         marginTop: "1rem",

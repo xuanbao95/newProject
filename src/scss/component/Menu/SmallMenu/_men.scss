@@ -4,8 +4,9 @@
     position: relative;
   }
   .grid-dropDown {
+    background-color: white;
     position: absolute;
-
+    z-index: 1;
     box-shadow: 2px 2px #888888;
     top: 60px;
     right: 6rem;

@@ -3,11 +3,12 @@ import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "../src/scss/index.scss"
+// import './index.css';
 import { createStore, applyMiddleware, compose } from "redux"
 import { Provider } from "react-redux"
 import thunk from "redux-thunk"
 import * as serviceWorker from "./serviceWorker"
-import rootReducer from './redux/reducers/rootReducers';
+import rootReducer from './redux/rootReducers';
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 const store = createStore(
   rootReducer,

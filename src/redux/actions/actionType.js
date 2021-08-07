@@ -1,11 +1,11 @@
 
-import * as API from "../../axios/axios"
+import * as API from "../../Axios/API"
 import axios from "axios"
 import * as ActionType from "../contants/contants"
-export const createAction = ({ type, payLoad }) => {
+export const createAction = ({ type, payload }) => {
     return {
         type,
-        payLoad,
+        payload,
     }
 }
 export const actGetListProduct = () => {
@@ -20,10 +20,10 @@ export const actGetListProduct = () => {
             dispatch(
                 createAction({
                     type: ActionType.GET_LIST_PRODUCT,
-                    payLoad: res.data,
-
+                    payload: res.data,
                 })
             );
+
             console.log(res.data);
         } catch (er) {
             console.log({ ...er });
